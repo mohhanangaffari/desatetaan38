@@ -1,0 +1,22 @@
+@import "leaflet/dist/leaflet.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+    html,body{
+        @apply bg-white text-black        
+    }
+    ::selection{
+        background: #9e2a2b; color: #fff;
+    }
+}
+
+@layer utilities{
+    .focus-ring{
+        @apply focus:outline-none focus:ring-2 focus:ring-brand-maroon focus:ring-offset-2;
+    }
+}
+
