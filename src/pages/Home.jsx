@@ -88,7 +88,7 @@ export default function Home(){
           <Header
           imageUrl={Imgbg}
           title="Selamat Datang Di Desa Tetaan"
-          subtitle="Dari desa kami,untuk rasa dan kebanggan bersama"          
+          subtitle='"Dari desa kami, untuk rasa dan kebanggan bersama"'
           />
         <div 
         className="max-w-4xl mx-auto text-center"
