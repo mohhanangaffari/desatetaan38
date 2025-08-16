@@ -30,7 +30,7 @@ export default function Header2({ imageUrl, title, subtitle }) {
 
       {/* Text content */}
       <div style={{ position: "relative", zIndex: 2 }}>
-        <h1 style={{ fontSize: "3rem", margin: 0 }}>{title}</h1>
+        <h1 style={{ fontSize: "3rem", margin: 0 }} className="font-bold">{title}</h1>
         <p style={{ fontSize: "1.2rem", marginTop: "0.5rem" }}>{subtitle}</p>
       </div>
     </header>
