@@ -139,7 +139,7 @@ const getIcon = (color) => {
             <h2 className="text-3xl font-bold text-center mb-6 text-white m-4">Peta Desa Tetaan</h2>
             <div className="flex justify-center">
                 <img
-                src="https://github.com/mohhanangaffari/desatetaan38/blob/main/src/images/Peta_Desa_Test.jpg"
+                src="Peta_Desa_Test.jpg"
                 alt="Peta Desa Tetaan"
                 className="w-full max-w-3xl rounded shadow-lg"
                 />
