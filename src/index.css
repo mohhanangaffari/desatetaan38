@@ -20,3 +20,15 @@
     }
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  @apply text-[#9e2a2b];
+}
+
+.swiper-pagination-bullet {
+  @apply bg-[#7d2122] opacity-70;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-[#9e2a2b] opacity-100;
+}
