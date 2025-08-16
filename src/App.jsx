@@ -28,7 +28,10 @@ export default function App() {
     
     <BrowserRouter>
     {isadmin && <Adminpopup/>}
-    <div className='bg-brand-maroonDark min-h-screen'>
+    <div className='min-h-screen '
+    style={{ backgroundImage: "url('bg.png')",backgroundSize: "auto 70%",
+        backgroundPosition: "center", }}
+    >
       <header className='bg-brand-maroon text-white shadow-soft'>
       <nav className='bg-brand-maroon text-white p-4 flex gap-4'>        
         <Link to="/">Beranda</Link>
