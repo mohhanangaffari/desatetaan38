@@ -87,7 +87,7 @@ export default function Home(){
       <div className='relative -mx-[calc(50vw-50%)] w-screen'>                  
           <Header
           imageUrl={Imgbg}
-          title="selamat Datang Di Desa Tetaan"
+          title="Selamat Datang Di Desa Tetaan"
           subtitle="Dikelola Oleh Desa Tetaan sebagai Saran Informasi Bagi Masyarakat"          
           />
         <div 
