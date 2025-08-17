@@ -29,7 +29,7 @@ export default function App() {
     <BrowserRouter>
     {isadmin && <Adminpopup/>}
     <div className='min-h-screen '
-    style={{ backgroundImage: "url('bg.png')",backgroundSize: "auto 70%",
+    style={{ backgroundImage: "url('/bg.png')",backgroundSize: "auto 70%",
         backgroundPosition: "center", }}
     >
       <header className='bg-brand-maroon text-white shadow-soft'>
